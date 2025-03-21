@@ -5,6 +5,9 @@ haar_file = 'haarcascade_frontalface_default.xml'
 datasets = 'Datasets'
 personName = input("Enter the person name : ")
 
+if not os.path.isdir(datasets):
+	os.mkdir(datasets)
+
 path = os.path.join(datasets, personName)
 
 if not os.path.isdir(path):
