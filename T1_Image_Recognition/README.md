@@ -14,6 +14,7 @@ First you need to create the dataset:
         Then faces are detected from each image and the faces are saved in the dataset folder.
 
 After create the dataset, You can move to the Face Recognition:
+
     Run face_recognize.py file
 
 
