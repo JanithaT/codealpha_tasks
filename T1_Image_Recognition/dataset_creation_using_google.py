@@ -4,6 +4,10 @@ from pygoogle_image import image as pi
 haar_file = 'haarcascade_frontalface_default.xml'
 datasets = 'Datasets'
 
+## If Datasets folder not exist, create that folder
+if not os.path.isdir(datasets):
+	os.mkdir(datasets)
+	
 personName = input("Enter the person name : ")
 imagesCount = input("No of images need : ")
 
