@@ -3,6 +3,7 @@
 Algorithm: Haar Cascade Frontal Face Algorithm (For Face Detection)
 
 First you need to create the dataset:
+
     Method 1: Creating a dataset by capturing images using your web camera 
         For this method, Run data_creation_using_webcam python file
 
