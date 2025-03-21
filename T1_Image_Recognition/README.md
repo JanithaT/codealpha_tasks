@@ -8,7 +8,7 @@ First you need to create the dataset:
         For this method, Run data_creation_using_webcam python file
 
     Method 2: Creating a dataset by downloading images from Google
-        For this method, Run data_creation_using_webcam python file
+        For this method, Run data_creation_using_google python file
 
         Downloaded files will be saved into images folder.
         Then faces are detected from each image and the faces are saved in the dataset folder.
